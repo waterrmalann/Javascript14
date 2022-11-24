@@ -6,8 +6,6 @@ A tiny challenge I'm taking to build 15 simple vanilla web apps in 15 days using
 
 The primary focus of this challenge is JavaScript as I wanted each project to have an utility, though HTML and CSS have also been used extensively to make the apps visually pleasing.
 
-<details>
-  <summary>List</summary>
 | Day | App | Description |
 | --- | --- | --- |
 | 01 | Eisenhower Decision Matrix | Task prioritization using eisenhower method. |
@@ -15,7 +13,6 @@ The primary focus of this challenge is JavaScript as I wanted each project to ha
 | 03 | To-Do List | Simple task manager. |
 | 04 | Date Distance Calculator | Calculate the amount of days between two dates. |
 | 05 | Motivational Quotes | Random quotes to motivate. |
-</details>
 
 ### Give it a try!
 
