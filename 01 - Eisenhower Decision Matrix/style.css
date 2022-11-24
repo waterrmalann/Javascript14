@@ -1,0 +1,128 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+header {
+	text-align: center;
+}
+
+header h1 {
+	margin-bottom: 0;
+}
+
+header p {
+	padding:0;
+	margin-top:0;
+	font-size: 0.75rem;
+}
+
+footer {
+	text-align: center;
+}
+
+.card {
+	padding: 1rem;
+	margin: 0.5rem;
+	border-top-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+	border-top-left-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+	position: relative;
+}
+
+.card__input {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.card__field {
+	border: none;
+	outline: none;
+	border-bottom: 2px solid gray;
+	background: unset;
+	width: 50%;
+}
+
+.card__field:focus {
+	border-bottom: 2px solid black;
+}
+
+.card__button {
+	border: none;
+	background: gray;
+	color: white;
+	border-radius: 100%;
+}
+
+.card__button:hover {
+	background: black;
+	cursor: pointer;
+}
+
+.card:first-child {
+	background-color: #fae8d6;
+}
+.card:first-child:after {
+	content:'Important, Urgent';
+	position: absolute;
+	top:-5px;
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 1rem;
+	padding-inline: 1rem;
+}
+.card:nth-child(2) {
+	background-color: #f3ecd3;
+}
+.card:nth-child(2):after {
+	content:'Important, Not Urgent';
+	position: absolute;
+	top:-5px;
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 1rem;
+	padding-inline: 1rem;
+}
+.card:nth-child(3) {
+	background-color: #ffecba;
+}
+.card:nth-child(3):after {
+	content:'Not Important, Urgent';
+	position: absolute;
+	top:-5px;
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 1rem;
+	padding-inline: 1rem;
+}
+.card:last-child {
+	background-color: #dce7e4;
+}
+.card:last-child::after {
+	content:'Not Important, Not Urgent';
+	position: absolute;
+	top:-5px;
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 1rem;
+	padding-inline: 1rem;
+}
+
+.matrix {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: min(90%, 70.5rem);
+	margin-inline: auto;
+}
+
+
+@media (max-width:720px) {
+	.matrix {
+		grid-template-columns: 1fr;
+	}
+	.card__field {
+		width: 100%;
+	}
+}

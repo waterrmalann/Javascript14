@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Eisenhower Decision Matrix </title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	
+	<body>
+		<header>
+			<h1>Eisenhower Decision Matrix</h1>
+			<p>(double click item to remove)</p>
+		</header>
+
+		<main>
+			<div class="matrix">
+				<div class="card">
+					<h3>Do It</h3>
+					<p>Things with clear deadlines and consequences for not taking immediate action.</p>
+					<div class="card__input">
+						<input id="doInput" type="text" class="card__field">
+						<button id="doButton" class="card__button">+</button>
+					</div>
+					<ul id="doList" class="card__list"></ul>
+				</div>
+				<div class="card">
+					<h3>Schedule It</h3>
+					<p>Activities without a set deadline that bring you closer to your goals. Easy to procrastinate on.</p>
+					<div class="card__input">
+						<input id="scheduleInput" type="text" class="card__field">
+						<button id="scheduleButton" class="card__button">+</button>
+					</div>
+					<ul id="scheduleList" class="card__list"></ul>
+				</div>
+				<div class="card">
+					<h3>Delegate It</h3>
+					<p>Things that need to be done, but don't require your specific skills. Busy work.</p>
+					<div class="card__input">
+						<input id="delegateInput" type="text" class="card__field">
+						<button id="delegateButton" class="card__button">+</button>
+					</div>
+					<ul id="delegateList" class="card__list"></ul>
+				</div>
+				<div class="card">
+					<h3>Delete It</h3>
+					<p>Distractions that make you feel worse afterward. Can be okay but only in moderation.</p>
+					<div class="card__input">
+						<input id="deleteInput" type="text" class="card__field">
+						<button id="deleteButton" class="card__button">+</button>
+					</div>
+					<ul id="deleteList" class="card__list"></ul>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<p>Made with 💝 by Alan.</p>
+		</footer>
+
+		<script  src="./script.js"></script>
+	</body>
+</html>
