@@ -14,6 +14,7 @@ The primary focus of this challenge is JavaScript as I wanted each project to ha
 | 02 | Countdown Timer | Set a countdown (hrs, mins, seconds). |
 | 03 | To-Do List | Simple task manager. |
 | 04 | Date Distance Calculator | Calculate the amount of days between two dates. |
+| 05 | Motivational Quotes | Random quotes to motivate. |
 </details>
 
 ### Give it a try!
