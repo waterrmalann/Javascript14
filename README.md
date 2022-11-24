@@ -11,6 +11,7 @@ The primary focus of this challenge is JavaScript as I wanted each project to ha
 | Day | App | Description |
 | --- | --- | --- |
 | 01 | Eisenhower Decision Matrix | Task prioritization using eisenhower method. |
+| 02 | Countdown Timer | Set a countdown (hrs, mins, seconds). |
 </details>
 
 ### Give it a try!
@@ -20,4 +21,4 @@ I encourage you to try something similar! Challenges are a great way to learn as
 License
 ----
 
-This project is licensed under the permissive **MIT License**, see [LICENSE](LICENSE)
+All these projects are licensed under the permissive **MIT License**, see [LICENSE](LICENSE)
