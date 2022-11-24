@@ -12,6 +12,7 @@ The primary focus of this challenge is JavaScript as I wanted each project to ha
 | --- | --- | --- |
 | 01 | Eisenhower Decision Matrix | Task prioritization using eisenhower method. |
 | 02 | Countdown Timer | Set a countdown (hrs, mins, seconds). |
+| 03 | To-Do List | Simple task manager. |
 </details>
 
 ### Give it a try!
