@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: #85FFBD;
+	background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+	height: 100%;
+}
+
+header {
+	text-align: center;
+}
+
+header h2 {
+	margin-bottom:0;
+}
+
+header p {
+	margin-top: 0;
+}
+
+footer {
+	text-align: center;
+}
+
+.container {
+	width: min(90%, 70.5rem);
+	margin-inline: auto;
+	display: grid;
+	place-items: center;
+	place-content: center;
+	height: 100%;
+}
+
+.card {
+	background-color: white;
+	padding: 2rem;
+	text-align: center;
+	border-bottom-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+}
+
+.timer-input {
+	outline: none;
+	border: none;
+	border-bottom: 1px solid;
+	width: 8ch;
+}
+
+.timer-button {
+	border-radius: 0.5rem;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid;
+	font-weight: 600;
+}
+
+.timer-text {
+	font-size: 3rem;
+	text-align: center;
+}

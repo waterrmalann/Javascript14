@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Countdown Timer</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	
+	<body>
+		<div class="container">
+			<header>
+				<h2>Simple Timer</h2>
+				<p>A super simple countdown timer.</p>
+			</header>
+
+			<div class="card">
+				<h3><i>set timer</i></h3>
+				<span>
+					<input placeholder="hrs" type="number" id="countdownHours" class="timer-input">
+					<input placeholder="mins" type="number" id="countdownMinutes" class="timer-input">
+					<input placeholder="secs" type="number" id="countdownSeconds" class="timer-input">
+					<button id="countdownButton" class="timer-button">START</button>
+				</span>
+			<p id="countdownOutput" class="timer-text">00h 00m 00s</p>
+		</div>
+
+		<footer>
+			<p>Made with 💝 by Alan</p>
+		</footer>
+		</div>
+
+		<script  src="./script.js"></script>
+	</body>
+</html>
