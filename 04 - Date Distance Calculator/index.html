@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Date Distance Calculator</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="./style.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>Date Distance Calculator</h1>
+			<p>Calculates the distance between two dates.</p>
+		</header>
+
+		<main class="container">
+			<p>Select two dates you wish to compare.</p>
+
+			<div class="date-block">
+				<div>
+					<label for="startdate">Start Date:</label>
+					<input type="date" name="startdate" class="date-input" id="startDate">
+				</div>
+				<div>
+					<label for="enddate">End Date:</label>
+					<input type="date" name="enddate" class="date-input" id="endDate">
+				</div>
+			</div>
+			
+			<div class="result-block">
+				<p id="resultDays">N/A</p>
+				<ul id="resultDaysIndividual">
+				
+				</ul>
+			</div>
+		</main>
+
+		<footer>
+			<p>Made with 💝 by Alan</p>
+		</footer>
+
+		<script  src="./script.js"></script>
+	</body>
+</html>
