@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://source.unsplash.com/collection/317099/1920x1080") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.container {
+	width: min(90%, 70.5rem);
+	margin-inline: auto;
+	display: grid;
+	place-items: center;
+	place-content: center;
+	height: 100%;
+	text-align: center;
+}
+
+q#quote {
+	font-size: clamp(2rem, 3.5vw, 4rem);
+	font-family: serif;
+}
+
+p#author {
+	font-size: 1.5rem;
+}
+p#author::before {
+	content: '~ ';
+}
