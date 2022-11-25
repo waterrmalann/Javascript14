@@ -1,0 +1,32 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin:0;
+	padding:0;
+	overflow:none;
+	height: 100%;
+	font-family: Poppins, sans-serif;
+	background: unset;
+	transition: background 1s;
+}
+
+div {
+	padding: 3rem;
+}
+
+span {
+	margin:0;
+	color: white;
+	font-size: 0.65rem;
+}
+
+p, h1 {
+	margin:0;
+	color: white;
+}
+
+h1::before {
+	content: '#';
+}
