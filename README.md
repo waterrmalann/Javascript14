@@ -4,7 +4,7 @@
 
 A tiny challenge I'm taking to build 15 simple vanilla web apps in 15 days using HTML, CSS, and JavaScript.
 
-The primary focus of this challenge is JavaScript as I wanted each project to have an utility, though HTML and CSS have also been used extensively to make the apps visually pleasing.
+The primary focus of this challenge is JavaScript as I wanted each project to have functionality, though HTML and CSS have also been used extensively to make the apps visually pleasing.
 
 | Day | App | Description |
 | --- | --- | --- |
@@ -15,6 +15,7 @@ The primary focus of this challenge is JavaScript as I wanted each project to ha
 | 05 | Motivational Quotes | Random quotes to motivate. |
 | 06 | Hex Clock | A clock that uses the time for the background. |
 | 07 | Ninja Name | Find your ninja name 🥷. |
+| 08 | Rot-13 | Encode/Decode text with Rot-13. |
 
 ### Give it a try!
 
