@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	overflow: none;
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+	background: #457fca;
+	background: linear-gradient(to right, #5691c8, #457fca);
+}
+
+header {
+	padding-block: 1rem;
+}
+
+header h1 {
+	margin-bottom: 0;
+}
+header p {
+	margin-top: 0;
+}
+header a {
+	color: black;
+}
+header a:hover {
+	color: white;
+}
+
+footer {
+	text-align: center;
+	padding-block: 1rem;
+}
+footer p {
+	background-color: rgba(14, 14, 14, 0.25);
+	width: fit-content;
+	padding: 0.2rem 0.7rem;
+	border-radius: 1rem;
+	color: white;
+	margin-inline: auto;
+}
+
+.container {
+	width: min(90%, 70.5rem);
+	margin-inline: auto;
+}
+
+.box {
+	background: white;
+	box-shadow: 2px 2px 4px rgba(14, 14, 14, 0.25);
+	border-radius: 1rem;
+	padding: 1rem;
+}
+
+label[for="textField"],
+label[for="encodedField"] {
+	font-weight: bold;
+	padding-block: 1rem;
+}
+
+textarea.field {
+	width: 100%;
+	border-radius: 0.5rem;
+	outline: none;
+	border: 1px solid rgba(14, 14, 14, 0.25);
+	box-shadow: 2px 2px 3px rgba(14, 14, 14, 0.3);
+	padding: 0.35rem;
+	height: 6rem;
+	font-family: "Roboto Mono", monospace;
+	margin-bottom: 1rem;
+}
