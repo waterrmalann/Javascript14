@@ -14,8 +14,9 @@ The primary focus of this challenge is JavaScript as I wanted each project to ha
 | 04 | Date Distance Calculator | Calculate the amount of days between two dates. |
 | 05 | Motivational Quotes | Random quotes to motivate. |
 | 06 | Hex Clock | A clock that uses the time for the background. |
-| 07 | Ninja Name | Find your ninja name 🥷. |
+| 07 | Ninja Name | Find your ninja name 🐱‍👤. |
 | 08 | Rot-13 | Encode/Decode text with Rot-13. |
+| 09 | Stopwatch | A simple stopwatch with flags. |
 
 ### Give it a try!
 
