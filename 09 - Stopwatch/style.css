@@ -1,0 +1,96 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	overflow-x: none;
+	padding: 0;
+	margin: 0;
+	background: #f5f5f5;
+	font-family: 'Roboto Mono', sans-serif;
+}
+
+#stopwatchTicker {
+	margin-bottom: 0;
+}
+#lapTicker {
+	margin-top:0.5rem;
+	color: gray;
+}
+
+.dividing-line {
+	border: none;
+	border-bottom: 1px solid #2E4052;
+	width: 100%;
+}
+
+.dividing-line-2 {
+	border: none;
+	border-bottom: 1px solid #fff;
+	width: 100%;
+}
+
+.container {
+	width: min(80%, 70.5rem);
+	margin-inline: auto;
+}
+.lap {
+	list-style:none;
+	padding:0;
+	width: 100%;
+	overflow-y: auto;
+	height: 50vh;
+}
+
+.lap__item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding:0;
+}
+
+
+main {
+ display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.controls {
+	background-color: #f6f6f6;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 5rem;
+	padding: 1rem;
+	padding-bottom: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 3rem;
+}
+
+.controls__button {
+	background: #FFC857;
+	color: #2E4052;
+	border: none;
+	border-radius: 100%;
+	padding: 1rem;
+	font-size: 1.25rem;
+	transition: .25s;
+}
+
+.controls__button:hover {
+	cursor: pointer;
+	color: #FFC857;
+	background: #2E4052;
+	transition: .25s;
+}
+
+.controls__button:disabled {
+	background: gray;
+	color: lightgray;
+	cursor: not-allowed;
+}
