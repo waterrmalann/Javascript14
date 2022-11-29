@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow-x: none;
+	font-family: "Poppins", sans-serif;
+	background: #7743db;
+	color: white;
+}
+
+header {
+	padding-block: 1rem;
+}
+
+header h1 {
+	margin-bottom: 0;
+}
+header p {
+	margin-top: 0;
+}
+
+a {
+	color: white;
+}
+a:hover {
+	text-decoration: none;
+	color: #ffe9b1;
+}
+
+footer {
+	padding-block: 1rem;
+	text-align: center;
+}
+
+footer p {
+	background-color: rgba(14, 14, 14, 0.25);
+	border-radius: 1rem;
+	padding: 0.35rem 0.75rem;
+	width: fit-content;
+	margin-inline: auto;
+	font-family: 'Roboto Mono', 'Poppins', sans-serif;
+}
+
+footer p:hover {
+	color: #ffe9b1;
+}
+
+.container {
+	width: min(80%, 70.5rem);
+	margin-inline: auto;
+}
+
+.card {
+	background: #fcfdf2;
+	border-radius: 1rem;
+	box-shadow: 2px 2px 4px rgba(14, 14, 14, 0.25);
+	padding: 2rem 1rem;
+	color: black;
+	text-align: center;
+}
+
+.card__boxes {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 3rem;
+}
+
+.card__item > button {
+	border: none;
+	box-shadow: 2px 2px 1px rgba(14, 14, 14, 0.25);
+	padding: 3rem;
+	border-radius: 1rem;
+	width: 12rem;
+	font-size: 1rem;
+	background: #fce2db;
+	border: 1px solid rgba(14, 14, 14, 0.25);
+	cursor: pointer;
+	transition: 0.25s;
+}
+
+.card__item > button:hover {
+	background: #ffefd6;
+	box-shadow: 2px 2px 3px rgba(14, 14, 14, 0.55);
+	transition: 0.25s;
+}
+
+.card__item > button > i {
+	font-size: 3rem;
+	color: #3b3486;
+}
+
+#opponentChoice {
+	color: #3b3486;
+}
