@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Mono&display=swap");
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow-x: none;
+	background: #FEFCF3;
+	font-family: 'Poppins', sans-serif;
+}
+
+header h1 {
+	margin-bottom: 0;
+}
+header p {
+	margin-top: 0.2rem;
+}
+
+footer {
+	text-align: center;
+}
+
+footer p {
+	background-color: #F5EBE0;
+	border-radius: 1rem;
+	padding: 0.35rem 0.75rem;
+	width: fit-content;
+	margin-inline: auto;
+}
+
+.container {
+	width: min(82%, 70.5rem);
+	margin-inline: auto;
+}
+
+.inline-input {
+	width: 12ch;
+	border: none;
+	border-bottom: 2px solid #344D67;
+	background: transparent;
+}
+
+.inline-input:focus {
+	border-bottom: 3px solid #222222;
+	outline: 1px solid rgba(14, 14, 14, 0.2);
+}
+
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2rem;
+	background-color: white;
+	box-shadow: 2px 2px 3px rgba(14, 14, 14, 0.15);
+	border-top-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	border-top-right-radius: 0.2rem;
+	border-bottom-left-radius: 0.2rem;
+	margin-bottom: 1rem;
+	padding: 0.2rem 1rem;
+	transition: .2s;
+	flex-wrap: wrap;
+}
+
+.box:hover {
+	box-shadow: 2px 2px 3px rgba(14, 14, 14, 0.25);
+	transition: .2s;
+}
+
+.box > :last-child {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.box__text {
+	margin-bottom: 0;
+}
+
+.box__subtext {
+	margin-top: 0;
+	font-size: 0.75rem;
+	font-family: 'Roboto Mono', monospace;
+}

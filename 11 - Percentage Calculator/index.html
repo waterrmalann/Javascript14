@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Percentages</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Mono&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./style.css">
+	</head>
+
+	<body>
+		<header class="container">
+			<h1>Percentage Calculator</h1>
+			<p>Utility tool to deal with simple percentage calculation nightmare.</p>
+		</header>
+
+		<main class="container">
+			<div class="box">
+				<div class="box__input">
+					<p class="box__text"><input id="CALC1_InputX" class="inline-input" type="number"> is what percent of <input id="CALC1_InputY" class="inline-input" type="number">?</p>
+					<p class="box__subtext">eg: 50 is what percent of 100?</p>
+				</div>
+				<div class="box__output">
+					<h1 id="CALC1_Result"></h1>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="box__input">
+					<p class="box__text">What is <input id="CALC2_InputX" class="inline-input" type="number">% of <input id="CALC2_InputY" class="inline-input" type="number"></p>
+					<p class="box__subtext">eg: What is 20% of 100?</p>
+				</div>
+				<div class="box__output">
+					<h1 id="CALC2_Result"></h1>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="box__input">
+					<p class="box__text">From <input id="CALC3_InputX" class="inline-input" type="number"> to <input id="CALC3_InputY" class="inline-input" type="number"></p>
+					<p class="box__subtext">eg: Percentage difference from 250 to 300?</p>
+				</div>
+				<div class="box__output">
+					<h1 id="CALC3_Result"></h1>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<p>Made with 💝 by Alan</p>
+		</footer>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
