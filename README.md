@@ -16,8 +16,9 @@ The primary focus of this challenge is JavaScript as I wanted each project to ha
 | 06 | Hex Clock | A clock that uses the time for the background. |
 | 07 | Ninja Name | Find your ninja name 🐱‍👤. |
 | 08 | Rot-13 | Encode/Decode text with Rot-13. |
-| 09 | Stopwatch | A simple stopwatch with laps. |
-| 10 | Rock, paper, scissors | A simple game. |
+| 09 | Stopwatch | A stopwatch with laps. |
+| 10 | Rock, paper, scissors | Play against the computer. |
+| 11 | Percentages Calculator | A percentage utility. |
 
 ### Give it a try!
 
