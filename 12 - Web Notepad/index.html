@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Web Notepad</title>
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Mono&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+		<header class="container">
+			<h1>Webpad</h1>
+			<p>Notepad for the web.</p>
+		</header>
+
+		<main class="container">
+			<div id="notesContainer" class="grid"></div>
+			<button class="fab" id="addNote">+</button>
+
+			<div id="noteModal" class="noteview" data-active-note=" ">
+				<div class="noteview__content">
+					<div class="noteview__header">
+						<input id="noteModalTitle" class="noteview__title" value="title" type="text">
+						<div class="noteview__tools">
+							<span id="noteModalDelete">🗑</span>
+							<span id="noteModalClose" class="close">&times;</span>
+						</div>
+					</div>
+					<textarea id="noteModalText" class="noteview__text" placeholder="enter something..."></textarea>
+					<p id="noteModalFooter"></p>
+				</div>
+			</div>
+		</main>
+
+		<footer class="container">
+			<p>Made with 💝 by Alan</p>
+		</footer>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
