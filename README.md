@@ -19,6 +19,7 @@ The primary focus of this challenge is JavaScript as I wanted each project to ha
 | 09 | Stopwatch | A stopwatch with laps. |
 | 10 | Rock, paper, scissors | Play against the computer. |
 | 11 | Percentages Calculator | A percentage utility. |
+| 12 | Web Notepad | A notepad for the web. |
 
 ### Give it a try!
 
