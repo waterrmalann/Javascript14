@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Text Patterns</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Mono&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1>Text Patterns</h1>
+				<p>Silly long text patterns generator.</p>
+			</div>
+		</header>
+
+		<section class="container">
+			<textarea id="inputText" placeholder="Enter text..."></textarea>
+			<label for="options">Generator:</label>
+			<select name="options" id="options">
+				<option value="pyramid">Pyramid</option>
+				<option value="spaced">Spaced</option>
+			</select>
+
+			<label>
+				<input type="checkbox" id="checkboxReverseEnd"> 
+			Reverse End</label>
+
+			<hr class="divider-line">
+
+			<h2>Generated Output:</h2>
+			<pre id="outputText"></pre>
+			<hr class="divider-line">
+		</section>
+
+		<footer>
+			<div class="container">
+				<p>Made with 💝 by Alan.</p>
+			</div>
+		</footer>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
