@@ -18,12 +18,23 @@ The primary focus of this challenge is JavaScript as I wanted each project to ha
 | 08 | Rot-13 | Encode/Decode text with Rot-13. |
 | 09 | Stopwatch | A stopwatch with laps. |
 | 10 | Rock, paper, scissors | Play against the computer. |
-| 11 | Percentages Calculator | A percentage utility. |
+| 11 | Percentages Calculator | A percentage calculation utility. |
 | 12 | Web Notepad | A notepad for the web. |
+| 13 | Text Patterns | Long spam text patterns generator. |
 
 ### Give it a try!
 
 I encourage you to try something similar! Challenges are a great way to learn as well as improve your abilities. You can use this repository as a reference and try to create 15 tiny but useful web apps in 15 days. For an added challenge, try coming up with new ideas or add new features to the existing web apps.
+
+### Dedicated projects
+
+Some of the projects I've made as part of this challenge were worthy of adding more to and have been turned into fully-fledged repositories of their own.
+
+- DAY 01 | [Eisenhower Decision Matrix](https://github.com/waterrmalann/eisenhower-decision-matrix)
+- DAY 07 | [Ninja Name](https://github.com/waterrmalann/ninja-name)
+- DAY 09 | [Stopwatch (renamed as Ticker)](https://github.com/waterrmalann/ticker)
+- DAY 10 | [Rock, Paper, Scissors](https://github.com/waterrmalann/rock-paper-scissors)
+- DAY 12 | [Web Notepad (renamed as Webpad)](https://github.com/waterrmalann/webpad)
 
 License
 ----
