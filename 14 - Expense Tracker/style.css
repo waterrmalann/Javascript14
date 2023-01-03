@@ -1,0 +1,190 @@
+:root {
+	--background-clr: #f7f9fd;
+	--clr: #212427;
+	--accent-background-clr: #587ef4;
+	--accent-clr: #fff;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	overflow-x: none;
+	font-family: "Poppins";
+	background: var(--background-clr);
+	color: var(--clr);
+}
+
+img,
+picture,
+svg,
+video {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+textarea,
+button,
+select {
+	font: inherit;
+}
+
+input[type="number"] {
+	width: 12ch;
+}
+
+header {
+	text-align: center;
+}
+
+header h1 {
+	margin-bottom: 0;
+}
+
+header p {
+	margin-top: 5px;
+}
+
+footer p {
+	/*background-color: var(--accent-background-clr);
+	color: var(--accent-clr);*/
+	border-radius: 1rem;
+	padding: 0.35rem 0.75rem;
+	width: fit-content;
+	margin-inline: auto;
+}
+
+.container {
+	width: min(80%, 70.5rem);
+	margin-inline: auto;
+}
+
+.card {
+	background: white;
+	color: #111;
+	box-shadow: 2px 2px 3px rgba(14, 14, 14, 0.25);
+	padding-inline: 1rem;
+	padding-block: 0.2rem 2rem;
+	border-radius: 0.5rem;
+	max-width: 512px;
+	margin-inline: auto;
+	margin-top: 1.25rem;
+}
+
+.card--accent {
+	background: var(--accent-background-clr);
+	color: var(--accent-clr);
+
+	padding-block: 0;
+}
+
+.card__title {
+	margin-bottom: 0;
+}
+.card__description {
+	margin-top: 0;
+	font-size: 0.75rem;
+}
+
+.split {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	gap: 1rem;
+}
+
+.card__heading {
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+#incomeAmount {
+	color: #65fe08;
+}
+
+#expenseAmount {
+	color: #c61a09;
+}
+
+.transactions {
+	list-style: none;
+	padding: 0;
+
+	max-width: 512px;
+	margin-inline: auto;
+}
+
+#transactionsCard:has(.transactions:empty) {
+	display: none;
+}
+
+.transaction {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background: white;
+	color: black;
+	margin-top: 1rem;
+	border-radius: 0.35rem;
+	border: 1px solid rgba(14, 14, 14, 0.15);
+	border-left: 6px solid var(--accent-background-clr);
+	padding-block: 0.5rem;
+}
+
+.transaction__amount,
+.transaction__title {
+	margin: 0;
+}
+
+.transaction[data-type="income"] .transaction__amount {
+	color: green;
+}
+
+.transaction[data-type="expense"] .transaction__amount {
+	color: red;
+}
+
+.transaction[data-type="expense"] .transaction__amount:before {
+	content: "-";
+}
+
+.inputs {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-inline: auto;
+	flex-wrap: wrap;
+}
+
+input {
+	border: 1px solid rgba(14, 14, 14, 0.15);
+	padding: 0.25rem 0.5rem;
+	border-radius: 0.45rem;
+	margin-top: 0.25rem;
+}
+
+.inputs button {
+	border: 1px solid rgba(14, 14, 14, 0.15);
+	padding: 0.25rem 0.5rem;
+	border-radius: 0.45rem;
+	margin-top: 0.25rem;
+	background: var(--accent-background-clr);
+	color: var(--accent-clr);
+}
+
+hr.divider-line {
+	border: none;
+	border-top: 1px solid rgba(255, 255, 255, 0.55);
+	margin-block: 2rem;
+	margin-inline: auto;
+	width: 50%;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Expense Tracker</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="title">Expense Tracker</h1>
+				<p class="subtitle">A simple expense tracking app.</p>
+			</div>
+		</header>
+
+		<section>
+			<div class="container">
+				<div class="card">
+					<h4 class="card__title">Income / Expense</h4>
+					<p class="card__description">prefix (-) before amount to indicate expense.</p>
+					<div class="inputs">
+						<input type="text" placeholder="Title" id="inputTitle">
+						<input type="number" placeholder="Amount" id="inputAmount">
+						<button id="inputButton">Add</button>
+					</div>
+				</div>
+
+				<div class="card card--accent">
+					<div class="split">
+						<div>
+							<h3 class="card__heading">Balance</h3>
+							<h2 id="balanceAmount">$0</h2>
+						</div>
+						<div>
+							<h3 class="card__heading">Income</h3>
+							<h2 id="incomeAmount">$0</h2>
+						</div>
+						<div>
+							<h3 class="card__heading">Expenses</h3>
+							<h2 id="expenseAmount">$0</h2>
+						</div>
+					</div>
+				</div>
+
+				<div class="card" id="transactionsCard">
+					<h4 class="card__title">Transactions</h4>
+					<!--<p class="card__description">double click to delete.</p>-->
+					<ul class="transactions" id="transactionList"></ul>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<p>Made with 💝 by Alan</p>
+			</div>
+		</footer>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
