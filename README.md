@@ -2,7 +2,7 @@
 
 ---
 
-A tiny challenge I'm taking to build 15 simple vanilla web apps in 14 days using HTML, CSS, and JavaScript.
+A tiny challenge I'm taking to build 14 simple vanilla web apps in 14 days using HTML, CSS, and JavaScript.
 
 *Why not 15?* Well, the simple answer is I couldn't come up with a 15th idea that fit the theme.
 
